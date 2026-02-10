@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"create:brown_toolbox"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:mechanical_crafter"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
