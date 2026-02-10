@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Tasks/10-02-26.md",
+                "file": "C-S&S.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10-02-26"
+              "title": "C-S&S"
             }
           }
         ]
@@ -187,20 +187,28 @@
   },
   "active": "7e0ef7a3440a67ea",
   "lastOpenFiles": [
-    "C-S&S.md",
-    "03_Concepts/Mekanism Overhaul.md",
-    "05_Quests",
     "01_Tasks/10-02-26.md",
-    "04_Flowcharts/Steel Casing.md",
+    "03_Concepts/Specifics/Circuit production Overhaul.md",
+    "04_Flowcharts/Circuit Production Overhaul Flowchart.md",
+    "04_Flowcharts/Steel Casing Recipe.md",
+    "04_Flowcharts/Base ae2 circuit making.md",
+    "04_Flowcharts/Base tfmg circuit making process.md",
+    "03_Concepts/Broad/Applied Overhaul.md",
+    "03_Concepts/Broad/Ars Overhaul.md",
+    "03_Concepts/Specifics",
+    "03_Concepts/Broad",
+    "03_Concepts/Broad/Mekanism Overhaul.md",
+    "C-S&S.md",
+    "06_References/Refs_03_Honorable Mentions.md",
+    "06_References/Ref_02_CM.md",
+    "06_References/Ref_01_CPTD.md",
+    "06_References/Ref_00_CA&B.md",
+    "05_Quests",
     "_Templates/_Template.md",
     "04_Flowcharts/Drawing 2026-02-10 05.09.09.excalidraw.md",
     "04_Flowcharts/Drawing 2026-02-10 05.08.07.excalidraw.md",
     "04_Flowcharts/Steel Casing.canvas",
     "04_Flowcharts/Mekanism Recipes.md",
-    "06_References/Refs_03_Honorable Mentions.md",
-    "06_References/Ref_02_CM.md",
-    "06_References/Ref_01_CPTD.md",
-    "06_References/Ref_00_CA&B.md",
     "_Templates",
     "06_References",
     "04_Flowcharts",
