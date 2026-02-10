@@ -1,0 +1,17 @@
+{
+  "backups": [
+    {
+      "worldName": "Tinkering",
+      "createTime": 1770687001223,
+      "backupLocation": "C:\\Users\\Victo\\curseforge\\minecraft\\Instances\\Create Source & Steel\\backups\\2026-2-9_22-30-0.zip",
+      "size": 731959,
+      "ratio": 0.08162924,
+      "sha1": "5f32a391f8fb68e33eb4d2761585ae762de77e83",
+      "preview": "",
+      "snapshot": false,
+      "backupName": "automated",
+      "backupFormat": "ZIP",
+      "complete": true
+    }
+  ]
+}
