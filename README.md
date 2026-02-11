@@ -22,6 +22,10 @@ Mekanism's way of making steel is gated behind create:tfmg steel which involves 
 
 With a major overhaul of all circuit production inspired by create:tfmg you will need to create assembly lines and resource automation for getting into AE2 and Mekanism.
 
+### Mekanism Chemicals and infuser
+
+Here I plan to remove the ability to directly insert item and turn them into chemicals inside the infuser. Instead I plan the need to prepare each chemical in mixing basins with distiled water or other base and later use mekanism's machines for that.
+
 ### Resource automation and renewability
 
 While still in early phase of deveopment the resorce automation and renewability isn't figured out yet. Late game OP mods like replication and ProjectE are being considered but for the early phases of the game there's no clue on how to go about it yet.
