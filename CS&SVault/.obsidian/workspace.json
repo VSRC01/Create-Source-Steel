@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-S&S.md",
+                "file": "01_Tasks/2026-02-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C-S&S"
+              "title": "2026-02-11"
             }
           }
         ]
@@ -187,8 +187,10 @@
   },
   "active": "7e0ef7a3440a67ea",
   "lastOpenFiles": [
-    "01_Tasks/10-02-26.md",
+    "01_Tasks/2026-02-10.md",
+    "01_Tasks/2026-02-11.md",
     "03_Concepts/Specifics/Circuit production Overhaul.md",
+    "C-S&S.md",
     "04_Flowcharts/Circuit Production Overhaul Flowchart.md",
     "04_Flowcharts/Steel Casing Recipe.md",
     "04_Flowcharts/Base ae2 circuit making.md",
@@ -198,7 +200,6 @@
     "03_Concepts/Specifics",
     "03_Concepts/Broad",
     "03_Concepts/Broad/Mekanism Overhaul.md",
-    "C-S&S.md",
     "06_References/Refs_03_Honorable Mentions.md",
     "06_References/Ref_02_CM.md",
     "06_References/Ref_01_CPTD.md",
