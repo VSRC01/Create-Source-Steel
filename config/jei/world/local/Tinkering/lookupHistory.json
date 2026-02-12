@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"ars_nouveau:novice_spell_book"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:blank_glyph"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:basic_universal_cable"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:creative_bin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:ultimate_smelting_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -97,7 +99,5 @@
   {"ingredient":{"id":"mekanism:ingot_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:alloy_reinforced"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mekanism:combiner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"kubejs:incomplete_basic_circuit_board"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"kubejs:etched_logic_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"kubejs:etched_engineering_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"kubejs:incomplete_basic_circuit_board"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

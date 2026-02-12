@@ -52,8 +52,8 @@ ServerEvents.recipes(event => {
     //----------------
 
     //mekanism
-    event.remove({id: 'mekanism:steel_casing'}),
-    event.remove({id: 'mekanism:structural_glass'}),
+    event.remove({id:'mekanism:steel_casing'}),
+    event.remove({id:'mekanism:structural_glass'}),
     event.remove({id:'mekanism:control_circuit/basic'}),
     event.remove({id:'mekanism:control_circuit/advanced'}),
     event.remove({id:'mekanism:control_circuit/infused_advanced'}),
@@ -68,7 +68,8 @@ ServerEvents.recipes(event => {
     event.remove({id:'ae2:inscriber/calculation_processor'}),
 
     //ars
-
+    event.remove({id:'ars_nouveau:novice_spell_book'})
+    event.remove({id:'ars_nouveau:novice_spellbook_alt'})
 
     //---------------------
     //add wanted recipes
@@ -393,6 +394,21 @@ ServerEvents.recipes(event => {
     //--------
     //ars
     //--------
-
-
+    event.shapeless(
+        Item.of('ars_nouveau:novice_spell_book'),
+        [
+            'minecraft:book',
+            '2x create:golden_sheet',
+            'minecraft:purple_dye'
+        ]
+        
+    ),
+    event.shapeless(
+        Item.of('ars_nouveau:novice_spell_book'),
+        [
+            'ars_nouveau:worn_notebook',
+            '2x create:golden_sheet'
+        ]
+        
+    )
 })

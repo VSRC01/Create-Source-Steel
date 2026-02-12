@@ -27,7 +27,7 @@ StartupEvents.registry('item', event => [
     event.create('etched_engineering_circuit').texture('create_source_steel:item/etched_engineering_circuit'),
     event.create('etched_logic_circuit').texture('create_source_steel:item/etched_logic_circuit'),
 
-    //incomplete_circuit
+    //incomplete_circuits
     //mekanism
     event.create('incomplete_basic_circuit_board').texture('create_source_steel:item/etched_basic_circuit_board'),
     event.create('incomplete_advanced_circuit_board').texture('create_source_steel:item/etched_advanced_circuit_board'),
