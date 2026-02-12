@@ -1,0 +1,683 @@
+{
+	autofocus_id: "54967F0DCB3FA279"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: ""
+	id: "5B9111F697B30125"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "54967F0DCB3FA279"
+			size: 2.0d
+			tasks: [{
+				id: "0FB2E207F8A6F3A0"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			id: "2565A857E332A476"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3CCC9FA22F1057F5"
+					item: { count: 1, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+				{
+					id: "662E3FB518D4E60F"
+					item: { count: 1, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			id: "4347A6CEDDE057D9"
+			tasks: [
+				{
+					id: "32C050A702BC9E40"
+					item: { count: 1, id: "kubejs:basic_circuit_board" }
+					type: "item"
+				}
+				{
+					id: "63AD229078DE2738"
+					item: { count: 1, id: "kubejs:advanced_circuit_board" }
+					type: "item"
+				}
+				{
+					id: "20DC43502D84D947"
+					item: { count: 1, id: "kubejs:elite_circuit_board" }
+					type: "item"
+				}
+				{
+					id: "329473648465E3FE"
+					item: { count: 1, id: "kubejs:ultimate_circuit_board" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			id: "597D8EC4FEDE536D"
+			tasks: [
+				{
+					id: "109563E1F04F7749"
+					item: { count: 1, id: "kubejs:logic_circuit" }
+					type: "item"
+				}
+				{
+					id: "58C68FDC9CA33C1A"
+					item: { count: 1, id: "kubejs:calculation_circuit" }
+					type: "item"
+				}
+				{
+					id: "5FCF99518B99241D"
+					item: { count: 1, id: "kubejs:engineering_circuit" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "317A233F77723896"
+			size: 2.0d
+			tasks: [
+				{
+					id: "78FEDBFA04E79A40"
+					item: { components: { "create:banktank_air": 900 }, count: 1, id: "create_jetpack:jetpack" }
+					type: "item"
+				}
+				{
+					id: "0DB17544786CC153"
+					item: { components: { "create:banktank_air": 900 }, count: 1, id: "create_jetpack:netherite_jetpack" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "39D8367768D71F12"
+			size: 2.0d
+			tasks: [
+				{
+					id: "55788E4D62538FD6"
+					item: { count: 1, id: "ae2:controller" }
+					type: "item"
+				}
+				{
+					id: "5246443E08FEEB27"
+					item: { count: 1, id: "ae2:crafting_terminal" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "124BB7284F29A07B"
+			size: 2.0d
+			tasks: [
+				{
+					id: "45B589FE64E14E40"
+					item: { count: 1, id: "justdirethings:raw_blazegold_ore" }
+					type: "item"
+				}
+				{
+					id: "129DE451181AE586"
+					item: { count: 1, id: "justdirethings:raw_ferricore_ore" }
+					type: "item"
+				}
+				{
+					id: "2A559A8A5AD0B8EF"
+					item: { count: 1, id: "justdirethings:raw_celestigem_ore" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			id: "1FD258D886B15750"
+			size: 4.0d
+			tasks: [
+				{
+					id: "6B5B099E607AAA01"
+					item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+					type: "item"
+				}
+				{
+					id: "53A808F887BCC0A5"
+					item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			id: "7899E40C2861AED3"
+			size: 2.0d
+			tasks: [
+				{
+					id: "08AB20BB944A52DC"
+					item: { count: 1, id: "tempad:tempad" }
+					type: "item"
+				}
+				{
+					id: "4FFAE3882D3E94EE"
+					item: { count: 1, id: "tempad:timedoor_projector" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			id: "2D232D1A3D063E19"
+			size: 4.0d
+			tasks: [
+				{
+					id: "13B6876F71B95926"
+					item: { count: 1, id: "create:large_water_wheel" }
+					type: "item"
+				}
+				{
+					id: "2FC00AA70339A0D1"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+				{
+					id: "3E2F761306B0FEE4"
+					item: { count: 1, id: "create:wrench" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "35CBC5F0E36FE8A5"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2E090B2BB9C3B5E7"
+					item: { count: 1, id: "mekanism:mekasuit_helmet" }
+					type: "item"
+				}
+				{
+					id: "30246BA65A17AC6A"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+				{
+					id: "777F82F9EBA1398C"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			id: "5F4A4C019492C6A2"
+			tasks: [
+				{
+					id: "74FD63250C63D262"
+					item: { count: 1, id: "ars_technica:runic_spanner" }
+					type: "item"
+				}
+				{
+					id: "38E451B889EEE3E2"
+					item: { count: 1, id: "ars_technica:technomancer_helmet" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			id: "10F78E86C4D8FFE7"
+			tasks: [
+				{
+					id: "315B4C6D78AD1876"
+					item: { components: { "relics:data": { abilities: { abilities: { wings: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charges: { initialValue: 2.94082d }, strength: { initialValue: 3.04771d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:wing_of_the_wild_stalker" }
+					type: "item"
+				}
+				{
+					id: "0373391DBEE90498"
+					item: { components: { "relics:data": { abilities: { abilities: { broom: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { boost: { initialValue: 0.90426d }, health: { initialValue: 10.73618d }, height: { initialValue: 15.32156d }, manacost: { initialValue: 66.22158d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:whirling_broom" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			id: "69D08EF75255CD17"
+			tasks: [{
+				id: "0A7F599E5B3AC956"
+				item: { count: 1, id: "ars_creo:starbuncle_wheel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			id: "4D3C0D47647999A8"
+			tasks: [{
+				id: "649738E9BD5B9E18"
+				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			id: "251972231EEA12CD"
+			tasks: [{
+				id: "26AF5F8B16C59E01"
+				item: { count: 1, id: "aeinfinitybooster:infinity_card" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			id: "3A21A49DAAC8D75B"
+			size: 2.0d
+			tasks: [
+				{
+					id: "514C83E35F819677"
+					item: { count: 1, id: "productivebees:bee_cage" }
+					type: "item"
+				}
+				{
+					id: "63B765EDF5E88B68"
+					item: { count: 1, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			id: "730555AB558C58CE"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7FE570885357B985"
+					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+					type: "item"
+				}
+				{
+					id: "6500A3A8524A2EBA"
+					item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:iron_barrel" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "2E68F6B58937B3A2"
+			tasks: [{
+				id: "045581114487AE31"
+				item: { count: 1, id: "railways:track_monorail" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "1B265DE093B4AFE4"
+			tasks: [
+				{
+					id: "3BA5F16FD6AD7264"
+					item: { count: 1, id: "enderstorage:ender_chest" }
+					type: "item"
+				}
+				{
+					id: "11550BA2B7C03735"
+					item: { count: 1, id: "enderstorage:ender_pouch" }
+					type: "item"
+				}
+				{
+					id: "09CB9CA7B7579EC7"
+					item: { count: 1, id: "enderstorage:ender_tank" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "04701C0871803CB6"
+			tasks: [
+				{
+					id: "09E314A6E42DD8B1"
+					item: { count: 1, id: "createoreexcavation:drilling_machine" }
+					type: "item"
+				}
+				{
+					id: "0E975C334EBD5078"
+					item: { count: 1, id: "createoreexcavation:drill" }
+					type: "item"
+				}
+				{
+					id: "446A04892BD0C126"
+					item: { count: 1, id: "createoreexcavation:sample_drill" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "048C494BAEC37B93"
+			tasks: [{
+				id: "1F1A94E5F204E047"
+				item: { count: 1, id: "createterminal:remote_terminal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "3BA6EE056106F11F"
+			tasks: [{
+				id: "51FB774EF58849F3"
+				item: { count: 1, id: "functionalstorage:oak_1" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "138CB5B591E21A78"
+			tasks: [{
+				id: "03969B7080E27154"
+				item: { count: 1, id: "mekaweapons:meka_tana" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			id: "3B23D307C82F5542"
+			tasks: [{
+				id: "4F6F089777BC339D"
+				item: { count: 1, id: "mekanism:module_gravitational_modulating_unit" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			id: "415C9EFB7FAB01C4"
+			tasks: [{
+				id: "7C51FFD802BD002B"
+				item: { count: 1, id: "create_factory_logistics:copper_jar_package_8x8" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "0FE792F6C20DF52E"
+			tasks: [{
+				id: "51833BC6BB2F4FE3"
+				item: { count: 1, id: "create_connected:copycat_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "149101A09F3DFAAB"
+			tasks: [{
+				id: "3AB85DD5F03A03AA"
+				item: { count: 1, id: "createcasing:andesite_configurable_gearbox" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "461851CF0AF9AC46"
+			tasks: [{
+				id: "6164C3A210A3DD6F"
+				item: { count: 1, id: "create_connected:empty_fan_catalyst" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "7E3A8D16E404E85C"
+			tasks: [{
+				id: "3E05934E50A4596F"
+				item: { count: 1, id: "createaddition:straw" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "76245A024FFF070F"
+			tasks: [{
+				id: "220FCEA7B7577BBE"
+				item: { count: 1, id: "create_ae_generator:kinetic_acceptor" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "1300FECC6E1D404B"
+			tasks: [{
+				id: "085A33A8D2624144"
+				item: { count: 1, id: "createstockbridge:ae_bridge" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "7042B2DC1DE40497"
+			tasks: [{
+				id: "70D53D0D1DF1FB03"
+				item: { count: 1, id: "measurements:tape_measure" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			id: "7CB0A7F471559EE0"
+			tasks: [
+				{
+					id: "685B9334A1E75418"
+					item: { count: 1, id: "naturescompass:naturescompass" }
+					type: "item"
+				}
+				{
+					id: "1BC036E979CCE8E5"
+					item: { count: 1, id: "explorerscompass:explorerscompass" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			id: "62D7B0CDD115DFD5"
+			tasks: [{
+				id: "30B6BE860B3E0067"
+				item: { count: 1, id: "etched:blank_music_disc" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			id: "16039DD1B140BC14"
+			tasks: [{
+				id: "3110D7AB5B05960D"
+				item: { count: 1, id: "sliceanddice:slicer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			id: "3D2BF10408D530DD"
+			size: 2.0d
+			tasks: [{
+				id: "1E9607DD09D04339"
+				item: { count: 1, id: "farmersdelight:iron_knife" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "1F4563B9312D7EC0"
+			tasks: [{
+				id: "7FE13B48FF032205"
+				item: { components: { "relics:data": { abilities: { abilities: { fall: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 3.2431d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } }, resurrected: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.09531d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:kitty_slippers" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			id: "199748E5AEC337F6"
+			tasks: [{
+				id: "29AA8516EE0CA2CB"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 10.0d
+		}
+		{
+			id: "53D32B557B142A4F"
+			tasks: [{
+				id: "64A4E3CC2464F559"
+				item: { count: 1, id: "constructionstick:wooden_stick" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			id: "728E6422FEF9168A"
+			tasks: [{
+				id: "7FF2288473012D04"
+				item: { count: 1, id: "starbunclemania:starby_ears" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			id: "6324CA9591B9AC9B"
+			tasks: [{
+				id: "043BF28C44D615C5"
+				item: { count: 1, id: "mechanical_botany:mechanical_insolator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "78C91C377C064780"
+			tasks: [{
+				id: "226450C98022E73D"
+				item: { count: 1, id: "exposure:camera" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			id: "79D8D78CEEC50779"
+			tasks: [{
+				id: "071B554BF1A6F5FB"
+				item: { count: 1, id: "exposure_polaroid:instant_camera" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			id: "514ED4AE15722EA4"
+			tasks: [{
+				id: "35181903A3614910"
+				item: { count: 1, id: "the_bumblezone:honey_cocoon" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "25211B9EF9D276F1"
+			size: 4.0d
+			tasks: [{
+				id: "52AB91737161A142"
+				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			id: "5B09AAB9910F6F83"
+			tasks: [{
+				id: "423BF06A4F35B829"
+				item: { count: 1, id: "chimes:iron_chimes" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			id: "00F9537E548EDB9C"
+			tasks: [{
+				id: "0D89679A544FE19E"
+				item: { count: 1, id: "comforts:sleeping_bag_white" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.0d
+		}
+		{
+			id: "422C443B1D8ECCAD"
+			tasks: [{
+				id: "2735A7A25DE81948"
+				item: { count: 1, id: "escalated:metal_walkway_steps" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "6AA61401D80B7565"
+			tasks: [{
+				id: "16089153BEFCB4D6"
+				item: { count: 1, id: "rechiseled:chisel" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 7.0d
+		}
+	]
+}
