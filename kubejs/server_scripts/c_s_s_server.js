@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
     //----------------
     //replace recipes inputs
     //----------------
+    
     //mekanism
     //---------
     //plates
@@ -13,6 +14,7 @@ ServerEvents.recipes(event => {
     //event.replaceInput({ mod: 'mekanism'}, 'mekanism:ingot_osmium', 'kubejs:osmium_sheet'),
     //event.replaceInput({ mod: 'mekanismgenerators'}, 'minecraft:gold_ingot', 'create:golden_sheet'),
     //event.replaceInput({ mod: 'mekanism'}, 'minecraft:gold_ingot', 'create:golden_sheet'),
+
     //circuits
     event.replaceInput({ mod: 'mekanism'}, 'mekanism:basic_control_circuit', 'kubejs:basic_circuit_board'),
     event.replaceInput({ mod: 'mekanism'}, 'mekanism:advanced_control_circuit', 'kubejs:advanced_circuit_board'),
@@ -28,18 +30,22 @@ ServerEvents.recipes(event => {
     //ae2
     //----------
     //plates
-    event.replaceInput({ mod: 'ae2'}, 'minecraft:iron_ingot', 'create:iron_sheet'),
-    event.replaceInput({ mod: 'ae2'}, 'minecraft:copper_ingot', 'create:copper_sheet'),
-    event.replaceInput({ mod: 'ae2'}, 'minecraft:gold_ingot', 'create:golden_sheet'),
+    //event.replaceInput({ mod: 'ae2'}, 'minecraft:iron_ingot', 'create:iron_sheet'),
+    //event.replaceInput({ mod: 'ae2'}, 'minecraft:copper_ingot', 'create:copper_sheet'),
+    //event.replaceInput({ mod: 'ae2'}, 'minecraft:gold_ingot', 'create:golden_sheet'),
+    
     //circuits
     event.replaceInput({ mod: 'ae2'}, 'ae2:calculation_processor', 'kubejs:calculation_circuit'),
     event.replaceInput({ mod: 'ae2'}, 'ae2:engineering_processor', 'kubejs:engineering_circuit'),
     event.replaceInput({ mod: 'ae2'}, 'ae2:logic_processor', 'kubejs:logic_circuit'),
 
+
+    //----------
     //ars
-    event.replaceInput({ mod: 'ars_nouveau'}, 'minecraft:iron_ingot', 'create:iron_sheet'),
-    event.replaceInput({ mod: 'ars_nouveau'}, 'minecraft:copper_ingot', 'create:copper_sheet'),
-    event.replaceInput({ mod: 'ars_nouveau'}, 'minecraft:gold_ingot', 'create:golden_sheet'),
+    //----------
+    //event.replaceInput({ mod: 'ars_nouveau'}, 'minecraft:iron_ingot', 'create:iron_sheet'),
+    //event.replaceInput({ mod: 'ars_nouveau'}, 'minecraft:copper_ingot', 'create:copper_sheet'),
+    //event.replaceInput({ mod: 'ars_nouveau'}, 'minecraft:gold_ingot', 'create:golden_sheet'),
 
     //----------------
     //replace furnace with steel casing for infuser and generator
@@ -50,6 +56,11 @@ ServerEvents.recipes(event => {
     //----------------
     //remove unwanted recipes
     //----------------
+
+    //create:jetpack
+    event.remove({id:'create_jetpack:jetpack'}),
+    event.remove({id:'create_jetpack:netherite_jetpack'}),
+
 
     //mekanism
     event.remove({id:'mekanism:steel_casing'}),
@@ -68,12 +79,42 @@ ServerEvents.recipes(event => {
     event.remove({id:'ae2:inscriber/calculation_processor'}),
 
     //ars
-    event.remove({id:'ars_nouveau:novice_spell_book'})
-    event.remove({id:'ars_nouveau:novice_spellbook_alt'})
+    event.remove({id:'ars_nouveau:novice_spell_book'}),
+    event.remove({id:'ars_nouveau:novice_spellbook_alt'}),
 
     //---------------------
     //add wanted recipes
     //---------------------
+    //create jetpack
+
+    event.recipes.create.mechanical_crafting('create_jetpack:jetpack', [
+        ' PSP ',
+        'PYXYP',
+        'PCECP',
+        ' C C '
+    ],{
+        E: 'create:brass_casing',
+        C:'create:chute',
+        X:'create:copper_backtank',
+        S:'create:shaft',
+        Y:'create:precision_mechanism',
+        P:'create:brass_sheet'
+    }),
+
+    event.recipes.create.mechanical_crafting('create_jetpack:netherite_jetpack', [
+        ' PSP ',
+        'PYXYP',
+        'PCECP',
+        ' C C '
+    ],{
+        E: 'create:brass_casing',
+        C:'create:chute',
+        X:'create:netherite_backtank',
+        S:'create:shaft',
+        Y:'create:precision_mechanism',
+        P:'create:brass_sheet'
+    }),
+
     //mekanism
     //--------
     //structural glass

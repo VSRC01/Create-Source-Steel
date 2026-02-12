@@ -1,4 +1,4 @@
-#Wed Feb 11 21:43:56 BRT 2026
+#Thu Feb 12 18:14:09 BRT 2026
 WORLD_CURVATURE_SIZE=4096
 shadowDistance=512.0
 shadowMapResolution=3072
