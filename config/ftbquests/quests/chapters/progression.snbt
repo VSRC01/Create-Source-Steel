@@ -231,7 +231,7 @@
 			tasks: [
 				{
 					id: "74FD63250C63D262"
-					item: { count: 1, id: "ars_technica:runic_spanner" }
+					item: { components: { "ars_technica:runic_wrench": 1b }, count: 1, id: "create:wrench" }
 					type: "item"
 				}
 				{
@@ -678,6 +678,23 @@
 			}]
 			x: -11.5d
 			y: 7.0d
+		}
+		{
+			id: "7D3DFDD1379E2DDF"
+			tasks: [
+				{
+					id: "0DE5D5E2C0B01CA2"
+					item: { count: 1, id: "simplemagnets:basicmagnet" }
+					type: "item"
+				}
+				{
+					id: "714BD72EDC826985"
+					item: { count: 1, id: "simplemagnets:basic_demagnetization_coil" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 8.0d
 		}
 	]
 }

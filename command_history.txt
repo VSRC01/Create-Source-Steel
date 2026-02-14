@@ -1,2 +1,17 @@
 /probejs dump
 /reload
+/spawn
+/back
+/spawnpoint
+/back
+/home
+/sethome
+/rtp
+/gamemode creative
+/tp -17070 -3191
+/tp -17070 -3191 ~
+/tp -17070 100 -3191
+/gamemode survival
+/gamemode creative\
+/gamemode creative
+/gamemode survival
