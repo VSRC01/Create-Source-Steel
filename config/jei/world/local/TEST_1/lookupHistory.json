@@ -1,5 +1,12 @@
 [
   {"version":1},
+  {"ingredient":{"id":"minecraft:warped_fungus_on_a_stick","components":{"minecraft:custom_name":"{\"extra\":[{\"fallback\":\"Iron Trowel\",\"italic\":false,\"translate\":\"jbt:iron_trowel\"}],\"text\":\"\"}","minecraft:custom_model_data":102201,"minecraft:max_damage":750,"minecraft:custom_data":{"jbt_trowel":1,"jbt_trowel_iron":1},"minecraft:lore":["\"Discovered from recipes\""]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:mechanical_drill"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createcasing:weathered_iron_mechanical_saw"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createcasing:weathered_iron_encased_fan"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createcasing:weathered_iron_mechanical_drill"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:potato_cannon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createoreexcavation:drill"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ars_technica:machinaguard_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ars_technica:machinaguard_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ars_technica:artificer_cap"},"type":"item_stack","bookmarkType":"INGREDIENT"},

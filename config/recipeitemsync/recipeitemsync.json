@@ -1,0 +1,16 @@
+{
+  "disableIntegratedServer": false,
+  "viewerPreference": "auto",
+  "namespaces": [
+    "demo"
+  ],
+  "manualVirtualItems": [
+    {
+      "virtualId": "demo:load",
+      "hostItem": "minecraft:trial_key",
+      "customModelData": 12345,
+      "displayName": "Custom Crafts",
+      "tooltip": ["Check your Custom Recipes Here"]
+    }
+  ]
+}

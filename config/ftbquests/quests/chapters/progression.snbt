@@ -498,7 +498,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			id: "7CB0A7F471559EE0"
@@ -515,7 +515,7 @@
 				}
 			]
 			x: -10.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			id: "62D7B0CDD115DFD5"
@@ -525,7 +525,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			id: "16039DD1B140BC14"
@@ -556,7 +556,7 @@
 				type: "item"
 			}]
 			x: -10.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			id: "199748E5AEC337F6"
@@ -566,7 +566,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			id: "53D32B557B142A4F"
@@ -576,7 +576,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			id: "728E6422FEF9168A"
@@ -606,7 +606,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			id: "79D8D78CEEC50779"
@@ -616,7 +616,7 @@
 				type: "item"
 			}]
 			x: -13.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			id: "514ED4AE15722EA4"
@@ -647,7 +647,7 @@
 				type: "item"
 			}]
 			x: -12.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			id: "00F9537E548EDB9C"
@@ -657,7 +657,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			id: "422C443B1D8ECCAD"
@@ -677,7 +677,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			id: "7D3DFDD1379E2DDF"
@@ -693,8 +693,18 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
-			y: 8.0d
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			id: "30C1CEC406F85DB5"
+			tasks: [{
+				id: "13C6520A46231646"
+				item: { components: { "minecraft:custom_data": { jbt_trowel: 1b, jbt_trowel_iron: 1b }, "minecraft:custom_model_data": 102201, "minecraft:custom_name": "{\"extra\":[{\"fallback\":\"Iron Trowel\",\"italic\":false,\"translate\":\"jbt:iron_trowel\"}],\"text\":\"\"}", "minecraft:max_damage": 750 }, count: 1, id: "minecraft:warped_fungus_on_a_stick" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
 		}
 	]
 }
